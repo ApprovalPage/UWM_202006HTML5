@@ -520,7 +520,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ICON_4Wash_sm, new cjs.Rectangle(-65.4,-65.4,134,134), null);
+}).prototype = getMCSymbolPrototype(lib.ICON_4Wash_sm, new cjs.Rectangle(-76.4,-76.4,156,156), null);
 
 
 (lib.ICON_4Wash = function(mode,startPosition,loop) {
@@ -598,7 +598,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ICON_4Wash, new cjs.Rectangle(-79.1,-79.1,162,162), null);
+}).prototype = getMCSymbolPrototype(lib.ICON_4Wash, new cjs.Rectangle(-101.1,-101.1,206,206), null);
 
 
 (lib.ICON_3Checks_sm = function(mode,startPosition,loop) {
@@ -652,7 +652,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ICON_3Checks_sm, new cjs.Rectangle(-65.4,-65.4,134,134), null);
+}).prototype = getMCSymbolPrototype(lib.ICON_3Checks_sm, new cjs.Rectangle(-76.4,-76.4,156,156), null);
 
 
 (lib.ICON_3Checks = function(mode,startPosition,loop) {
@@ -706,7 +706,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ICON_3Checks, new cjs.Rectangle(-79.1,-79.1,162,162), null);
+}).prototype = getMCSymbolPrototype(lib.ICON_3Checks, new cjs.Rectangle(-101.1,-101.1,206,206), null);
 
 
 (lib.ICON_2Distance_sm = function(mode,startPosition,loop) {
@@ -772,7 +772,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ICON_2Distance_sm, new cjs.Rectangle(-65.4,-65.4,134,134), null);
+}).prototype = getMCSymbolPrototype(lib.ICON_2Distance_sm, new cjs.Rectangle(-76.4,-76.4,156,156), null);
 
 
 (lib.ICON_2Distance = function(mode,startPosition,loop) {
@@ -838,7 +838,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ICON_2Distance, new cjs.Rectangle(-79.1,-79.1,162,162), null);
+}).prototype = getMCSymbolPrototype(lib.ICON_2Distance, new cjs.Rectangle(-101.1,-101.1,206,206), null);
 
 
 (lib.ICON_1Mask_sm = function(mode,startPosition,loop) {
@@ -884,7 +884,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ICON_1Mask_sm, new cjs.Rectangle(-65.4,-65.4,134,134), null);
+}).prototype = getMCSymbolPrototype(lib.ICON_1Mask_sm, new cjs.Rectangle(-76.4,-76.4,156,156), null);
 
 
 (lib.ICON_1Mask = function(mode,startPosition,loop) {
@@ -930,7 +930,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ICON_1Mask, new cjs.Rectangle(-79.1,-79.1,162,162), null);
+}).prototype = getMCSymbolPrototype(lib.ICON_1Mask, new cjs.Rectangle(-101.1,-101.1,206,206), null);
 
 
 // stage content:
@@ -1000,11 +1000,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_2._off = true;
 
 	this.instance_3 = new lib.ICON_4Wash_sm();
-	this.instance_3.setTransform(350,192,0.7,0.7);
+	this.instance_3.setTransform(350.05,188.05,0.77,0.77,0,0,0,0.1,0.1);
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(101).to({_off:false},0).to({x:150},5,cjs.Ease.quadOut).wait(26).to({x:-110,y:114.85},5,cjs.Ease.quadOut).to({_off:true},1).wait(33));
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(166).to({_off:false},0).to({x:212.6},4,cjs.Ease.quadOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(166).to({_off:false},0).to({regX:0,x:208.6},4,cjs.Ease.quadOut).wait(1));
 
 	// ICON_checks
 	this.instance_4 = new lib.ICON_3Checks();
@@ -1012,11 +1012,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_4._off = true;
 
 	this.instance_5 = new lib.ICON_3Checks_sm();
-	this.instance_5.setTransform(350,192,0.7,0.7);
+	this.instance_5.setTransform(349.95,187.95,0.77,0.77);
 	this.instance_5._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(67).to({_off:false},0).to({x:150},5,cjs.Ease.quadOut).wait(26).to({x:-110},5,cjs.Ease.quadOut).to({_off:true},1).wait(67));
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(165).to({_off:false},0).to({x:87.3},4,cjs.Ease.quadOut).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(165).to({_off:false},0).to({x:91.25},4,cjs.Ease.quadOut).wait(2));
 
 	// ICON_distance
 	this.instance_6 = new lib.ICON_2Distance();
@@ -1024,22 +1024,22 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_6._off = true;
 
 	this.instance_7 = new lib.ICON_2Distance_sm();
-	this.instance_7.setTransform(350,77,0.7,0.7);
+	this.instance_7.setTransform(349.95,80.95,0.77,0.77);
 	this.instance_7._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(33).to({_off:false},0).to({x:150},5,cjs.Ease.quadOut).wait(26).to({x:-110},5,cjs.Ease.quadOut).to({_off:true},1).wait(101));
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(164).to({_off:false},0).to({x:212.6},4,cjs.Ease.quadOut).wait(3));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(164).to({_off:false},0).to({x:208.6},4,cjs.Ease.quadOut).wait(3));
 
 	// ICON_mask
 	this.instance_8 = new lib.ICON_1Mask();
 	this.instance_8.setTransform(406,131.3,1.5,1.5);
 
 	this.instance_9 = new lib.ICON_1Mask_sm();
-	this.instance_9.setTransform(350,77,0.7,0.7);
+	this.instance_9.setTransform(349.95,80.95,0.77,0.77);
 	this.instance_9._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({x:150},5,cjs.Ease.quadOut).wait(25).to({x:-110},5,cjs.Ease.quadOut).to({_off:true},1).wait(135));
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(163).to({_off:false},0).to({x:87.3},4,cjs.Ease.quadOut).wait(4));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(163).to({_off:false},0).to({x:91.25},4,cjs.Ease.quadOut).wait(4));
 
 	// HEAD1
 	this.instance_10 = new lib.HEAD1();
@@ -1064,7 +1064,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-88.7,299.5,692.7,301);
+p.nominalBounds = new cjs.Rectangle(-132.7,258.6,736.7,341.9);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
