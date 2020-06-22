@@ -515,7 +515,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		//gotoAndPlay(2);
 		//}
 	}
-	this.frame_107 = function() {
+	this.frame_143 = function() {
 		//if(!this.alreadyExecuted){
 		//this.alreadyExecuted=true;
 		//this.loopNum=1;
@@ -528,53 +528,53 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(107).call(this.frame_107).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(143).call(this.frame_143).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("A3WzcMAutAAAMAAAAm5MgutAAAg");
 	this.shape.setTransform(150,125);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(108));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(144));
 
 	// slant
 	this.instance = new lib.UW_slant();
 	this.instance.setTransform(30,136,0.8,0.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(96).to({x:305},5,cjs.Ease.quadOut).wait(7));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(124).to({x:305},9,cjs.Ease.quadOut).wait(11));
 
 	// CTA
 	this.instance_1 = new lib.CTA();
 	this.instance_1.setTransform(306,125);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(101).to({_off:false},0).to({x:30},5,cjs.Ease.quadOut).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(133).to({_off:false},0).to({x:30},9,cjs.Ease.quadOut).wait(2));
 
 	// logo
 	this.instance_2 = new lib.UWMed_logo();
 	this.instance_2.setTransform(150.25,200.7,0.85,0.85,0,0,0,0.4,0.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(108));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(144));
 
 	// HEAD1
 	this.instance_3 = new lib.HEAD1();
 	this.instance_3.setTransform(30,15);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(47).to({x:-209},5).to({_off:true},1).wait(55));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(57).to({x:-209},9).to({_off:true},1).wait(77));
 
 	// HEAD2
 	this.instance_4 = new lib.HEAD2();
 	this.instance_4.setTransform(304,15);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(53).to({_off:false},0).to({x:30},5).wait(50));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(67).to({_off:false},0).to({x:30},9).wait(68));
 
 	// bkgd
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#32006E").s().p("A3bTiMAAAgnDMAu3AAAMAAAAnDg");
 	this.shape_1.setTransform(150,125);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(108));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(144));
 
 	this._renderFirstFrame();
 
