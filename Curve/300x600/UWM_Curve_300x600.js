@@ -602,7 +602,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 // stage content:
 (lib.UWM_Curve_300x600 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{coda:101});
+	this.initialize(mode,startPosition,loop,{coda:137});
 
 	// timeline functions:
 	this.frame_0 = function() {
@@ -615,19 +615,19 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		//gotoAndPlay(2);
 		//}
 	}
-	this.frame_100 = function() {
-		if(!this.alreadyExecuted){
-		this.alreadyExecuted=true;
-		this.loopNum=1;
-		this.gotoAndPlay(1);
-		} else {
-		this.loopNum++;
-		if(this.loopNum==2){
-		this.gotoAndPlay('coda');
-		}
-		}
+	this.frame_136 = function() {
+		//if(!this.alreadyExecuted){
+		//this.alreadyExecuted=true;
+		//this.loopNum=1;
+		//this.gotoAndPlay(1);
+		//} else {
+		//this.loopNum++;
+		//if(this.loopNum==2){
+		//this.gotoAndPlay('coda');
+		//}
+		//}
 	}
-	this.frame_128 = function() {
+	this.frame_186 = function() {
 		//if(!this.alreadyExecuted){
 		//this.alreadyExecuted=true;
 		//this.loopNum=1;
@@ -640,65 +640,65 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(100).call(this.frame_100).wait(28).call(this.frame_128).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(136).call(this.frame_136).wait(50).call(this.frame_186).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EgXWguyMAutAAAMAAABdlMgutAAAg");
 	this.shape.setTransform(150,300);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(129));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(187));
 
 	// slant
 	this.instance = new lib.UW_slant();
 	this.instance.setTransform(24.45,468,0.8,0.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(117).to({x:306},5,cjs.Ease.quadOut).wait(7));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(167).to({x:306},9,cjs.Ease.quadOut).wait(11));
 
 	// logo
 	this.instance_1 = new lib.UWMed_logo();
 	this.instance_1.setTransform(150.2,545.65,0.9,0.9,0,0,0,0.2,0.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(129));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(187));
 
 	// HEAD3
 	this.instance_2 = new lib.HEAD3();
 	this.instance_2.setTransform(305,355);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(101).to({_off:false},0).to({x:20},5,cjs.Ease.quadOut).wait(23));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(137).to({_off:false},0).to({x:20},9,cjs.Ease.quadOut).wait(41));
 
 	// HEAD2
 	this.instance_3 = new lib.HEAD2();
 	this.instance_3.setTransform(305,367);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(52).to({_off:false},0).to({x:20},5,cjs.Ease.quadOut).wait(38).to({x:-246},5,cjs.Ease.quadOut).wait(29));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(70).to({_off:false},0).to({x:20},9,cjs.Ease.quadOut).wait(48).to({x:-246},9,cjs.Ease.quadOut).wait(51));
 
 	// HEAD1
 	this.instance_4 = new lib.HEAD1();
 	this.instance_4.setTransform(305,367);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:24},5,cjs.Ease.quadOut).wait(42).to({x:-238},5,cjs.Ease.quadOut).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:24},9,cjs.Ease.quadOut).wait(52).to({x:-238},9,cjs.Ease.quadOut).wait(117));
 
 	// CTA
 	this.instance_5 = new lib.CTA();
 	this.instance_5.setTransform(306,458);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(122).to({_off:false},0).to({x:22.3},5,cjs.Ease.quadOut).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(176).to({_off:false},0).to({x:22.3},9,cjs.Ease.quadOut).wait(2));
 
 	// bkgd img
 	this.instance_6 = new lib.UWMBkgdImg_300x600();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(129));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(187));
 
 	// bkgd
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#32006E").s().p("EgXbAu4MAAAhdvMAu3AAAMAAABdvg");
 	this.shape_1.setTransform(150,300);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(129));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(187));
 
 	this._renderFirstFrame();
 
@@ -713,7 +713,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_Curve_300x600_atlas_.png?1592764111704", id:"UWM_Curve_300x600_atlas_"}
+		{src:"images/UWM_Curve_300x600_atlas_.png?1592849047685", id:"UWM_Curve_300x600_atlas_"}
 	],
 	preloads: []
 };
