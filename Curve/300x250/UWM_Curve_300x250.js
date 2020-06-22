@@ -664,13 +664,13 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_3.setTransform(305,25);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(70).to({_off:false},0).to({x:20},9,cjs.Ease.quadOut).wait(48).to({x:305},9,cjs.Ease.quadOut).wait(51));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(70).to({_off:false},0).to({x:20},9,cjs.Ease.quadOut).wait(48).to({x:-248},9,cjs.Ease.quadOut).wait(51));
 
 	// HEAD1
 	this.instance_4 = new lib.HEAD1();
 	this.instance_4.setTransform(305,25);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:20},9,cjs.Ease.quadOut).wait(52).to({x:305},9,cjs.Ease.quadOut).wait(117));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:20},9,cjs.Ease.quadOut).wait(52).to({x:-231},9,cjs.Ease.quadOut).wait(117));
 
 	// CTA
 	this.instance_5 = new lib.CTA();
@@ -689,7 +689,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(149.5,124.5,454.5,126);
+p.nominalBounds = new cjs.Rectangle(-98,124.5,702,126);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
